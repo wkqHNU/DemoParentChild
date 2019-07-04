@@ -19,6 +19,7 @@ namespace DemoParentChild
 
         public void Work()
         {
+            base.Work();
             Console.WriteLine("no abstract child work!");
         }
         public void Play()

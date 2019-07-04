@@ -9,5 +9,6 @@ namespace DemoParentChild
     abstract class AbstractParent
     {
         public abstract void Work();
+        public void Play() { }
     }
 }
